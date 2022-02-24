@@ -2,7 +2,7 @@
   background-color: #557A95;
 }
 
-/* HEADER - TODO: Change aesthetic */
+/* HEADER  */
 header {
   background-color: #B1A296;
   background-size: cover;
@@ -33,7 +33,7 @@ header nav a {
   color: white;
 }
 
-/* Section: about me: TO DO, style img div with text centered and fix p text alignment */
+/* Section: about me*/
 section {
   display: flex;
   flex-wrap: wrap;
@@ -75,16 +75,45 @@ li img {
   width: 60%;
 }
 
-/* overlay */
+@media only screen and (max-width: 600px) {
+  li img {
+    width: 20%;
+  }
+
+  #top_image: {
+    width: 30%;
+  }
+
+  .bottom_left {
+    font-size: x-small;
+  }
+}
+@media only screen and (max-width: 768) {
+  li img {
+    width: 25%;
+  }
+
+  #top_image: {
+    width: 40%;
+  }
+
+  .bottom_left {
+    font-size: small;
+  }
+}
+
+/* overlay attempt lmao */
 .image_container {
   position: relative;
   background-color: none;
 }
-.bottom-left {
+.bottom_left {
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
+
+/* footer */
 
 footer {
   display: flex;
@@ -98,3 +127,4 @@ footer nav {
   margin-left: auto;
   text-decoration: none;
 }
+
