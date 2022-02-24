@@ -65,13 +65,10 @@ main ul {
   display: grid;
   grid-template-columns: 2;
   grid-template-rows: 3;
-  justify-content: ;
 }
 
 main ul li {
   color: #557A95;
-  width: 90%
-  border:1px solid red;
 }
 
 main ul li:nth-child(1) {
@@ -85,7 +82,6 @@ li img {
   width: 25%;
 }
 
-#unique_image {
+#top_image {
   width: 60%;
-  align-self: center;
 }
