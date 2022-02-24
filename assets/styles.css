@@ -1,0 +1,75 @@
+* {
+  background-color: lightgray;
+}
+
+/* HEADER - TODO: Change aesthetic */
+header {
+  background-color: lightblue;
+  background-size: cover;
+  display: flex;
+}
+
+header nav {
+  border:1px solid red;
+  align-items: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+header nav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Section: about me: TO DO, style img div with text centered and fix p text alignment */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+section img {
+  width: 100px;
+  height: 100px;
+}
+
+section div {
+  flex: 1;
+  border:1px solid red;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.about_1 {
+}
+
+.about_2 {
+}
+
+/* Portfolio showcase */
+main {
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 44%;
+  height: 100px;
+  margin-bottom: 2%;
+  border:1px solid red;
+}
+
+li:nth-child(1) {
+  width: 90%;
+}
+li img {
+  border:1px solid yellow;
+  width: 250px;
+  height: 250px;
+}
